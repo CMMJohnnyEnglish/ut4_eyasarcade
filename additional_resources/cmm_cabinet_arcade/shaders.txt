@@ -1,0 +1,132 @@
+////////////////////////////////////////////////////////////////////////
+//
+// CMM CABINETS ARCADE MACHINES
+// ----------------------------
+// Suggested shaders for video screens, copy these to your shaders file
+//
+////////////////////////////////////////////////////////////////////////
+models/mapobjects/cmm_cabinet_arcade/asteroidscreen
+{
+	qer_editorImage textures/azlcmb1_arcadia/asterlight.tga
+	light 1
+	surfaceparm nomarks
+	q3map_surfacelight 300
+	surfaceparm trans
+	q3map_lightimage textures/azlcmb1_arcadia/asterlight.tga
+	q3map_forcemeta
+	{
+
+		map $lightmap
+		rgbGen identity
+		blendfunc gl_dst_color gl_src_color
+	}
+	{
+			videoMap asteroids.roq
+			rgbGen identity
+	}
+}
+////////////////////////////////////////////////////////////////////////
+models/mapobjects/cmm_cabinet_arcade/pacmanscreen
+{
+	qer_editorImage models/mapobjects/cmm_cabinet_arcade/pacmanscreen.tga
+	light 1
+	surfaceparm nomarks
+	q3map_surfacelight 200
+	surfaceparm trans
+	q3map_lightimage models/mapobjects/cmm_cabinet_arcade/pacmanscreen.tga
+	q3map_forcemeta
+	{
+		map $lightmap
+		rgbGen identity
+		blendfunc gl_dst_color gl_src_color
+	}
+	{
+		map models/mapobjects/cmm_cabinet_arcade/pacmanscreen.tga
+		rgbGen identity
+
+	}
+}
+////////////////////////////////////////////////////////////////////////
+models/mapobjects/cmm_cabinet_arcade/mspacmanscreen
+{
+	qer_editorImage models/mapobjects/cmm_cabinet_arcade/mspacmanscreen.tga
+	light 1
+	surfaceparm nomarks
+	q3map_surfacelight 200
+	surfaceparm trans
+	q3map_lightimage models/mapobjects/cmm_cabinet_arcade/mspacmanscreen.tga
+	q3map_forcemeta
+	{
+		map $lightmap
+		rgbGen identity
+		blendfunc gl_dst_color gl_src_color
+	}
+	{
+		map models/mapobjects/cmm_cabinet_arcade/mspacmanscreen.tga
+		rgbGen identity
+
+	}
+}
+////////////////////////////////////////////////////////////////////////
+models/mapobjects/cmm_cabinet_arcade/spacescreen
+{
+	qer_editorImage models/mapobjects/cmm_cabinet_arcade/spacescreen.tga
+	light 1
+	surfaceparm nomarks
+	q3map_surfacelight 200
+	surfaceparm trans
+	q3map_lightimage models/mapobjects/cmm_cabinet_arcade/spacescreen.tga
+	q3map_forcemeta
+	{
+		map $lightmap
+		rgbGen identity
+		blendfunc gl_dst_color gl_src_color
+	}
+	{
+		map models/mapobjects/cmm_cabinet_arcade/spacescreen.tga
+		rgbGen identity
+
+	}
+}
+////////////////////////////////////////////////////////////////////////
+models/mapobjects/cmm_cabinet_arcade/kongscreen
+{
+	qer_editorImage models/mapobjects/cmm_cabinet_arcade/kongscreen.tga
+	light 1
+	surfaceparm nomarks
+	q3map_surfacelight 200
+	surfaceparm trans
+	q3map_lightimage models/mapobjects/cmm_cabinet_arcade/kongscreen.tga
+	q3map_forcemeta
+	{
+		map $lightmap
+		rgbGen identity
+		blendfunc gl_dst_color gl_src_color
+	}
+	{
+		map models/mapobjects/cmm_cabinet_arcade/kongscreen.tga
+		rgbGen identity
+
+	}
+}
+////////////////////////////////////////////////////////////////////////
+models/mapobjects/cmm_cabinet_arcade/urtscreen
+{
+	qer_editorImage models/mapobjects/cmm_cabinet_arcade/urtscreen.tga
+	light 1
+	surfaceparm nomarks
+	q3map_surfacelight 200
+	surfaceparm trans
+	q3map_lightimage models/mapobjects/cmm_cabinet_arcade/urtscreen.tga
+	q3map_forcemeta
+	{
+		map $lightmap
+		rgbGen identity
+		blendfunc gl_dst_color gl_src_color
+	}
+	{
+		map models/mapobjects/cmm_cabinet_arcade/urtscreen.tga
+		rgbGen identity
+
+	}
+}
